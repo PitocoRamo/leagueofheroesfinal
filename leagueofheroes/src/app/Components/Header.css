@@ -1,0 +1,38 @@
+.header {
+  height: 64px;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #0b0f1a;
+  border-bottom: 1px solid #1e293b;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.header-text h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.header-text h3 {
+  font-size: 11px;
+  margin: 0;
+  color: #94a3b8;
+}
+
+.menu a {
+  margin-left: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.menu a:hover {
+  color: #38bdf8;
+}
